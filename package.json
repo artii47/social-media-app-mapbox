@@ -1,0 +1,45 @@
+{
+  "name": "social-site-for-travelers",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Artur Gorzelany",
+    "email": "artasss47@gmail.com"
+  },
+  "license": "See License in LICENSE",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@artsy/fresnel": "^1.2.2",
+    "axios": "^0.26.0",
+    "bcryptjs": "^2.4.3",
+    "dayjs": "^1.10.7",
+    "dotenv": "14.2.0",
+    "express": "^4.17.2",
+    "js-cookie": "3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "react-mapbox-gl": "^5.0.0",
+    "google-map-react": "^2.1.9",
+    "mapbox-gl": "2.8.1",
+    "mongoose": "^6.1.9",
+    "next": "12.1.0",
+    "nodemailer": "6.7.2",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nookies": "^2.5.2",
+    "nprogress": "^0.2.0",
+    "react": "17.0.2",
+    "react-cropper": "^2.1.8",
+    "react-dom": "17.0.2",
+    "react-infinite-scroll-component": "6.1.0",
+    "react-toastify": "8.1.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.0",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0"
+  }
+}
